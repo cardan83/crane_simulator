@@ -64,7 +64,7 @@ void display() {
     // of the box, but we want the "origin" of our box to be at the left end of
     // the box, so it needs to first be shifted 1 unit in the x direction, then
     // rotated.
-    glRotatef((GLfloat)rotation, 0.0, 0.0, 1.0);
+    glRotatef((GLfloat)rotation, 1.0, 0.0, 0.0);
     glTranslatef(1.0, 0.0, 0.0);
     wireBox(2.0, 0.4, 1.0);
 
@@ -76,15 +76,15 @@ void display() {
     // we translate <1,0,0> before rotating.  But after rotating we have to
     // position the lower arm at the end of the upper arm, so we have to
     // translate it <1,0,0> again.
-    glTranslatef(1.0, 0.0, 0.0);
+    glTranslatef(1.0, 0.2, 0.0);
     glRotatef((GLfloat)shoulderAngle, 0.0, 0.0, 1.0);
-    glTranslatef(1.0, 0.0, 0.0);
+    glTranslatef(1.0, -0.2, 0.0);
     wireBox(2.0, 0.4, 1.0);
 
     // Dan - a third robot part
-    glTranslatef(1.0, 0.0, 0.0);
+    glTranslatef(1.0, 0.2, 0.0);
     glRotatef((GLfloat)elbowAngle, 0.0, 0.0, 1.0);
-    glTranslatef(1.0, 0.0, 0.0);
+    glTranslatef(1.0, -0.2, 0.0);
     wireBox(2.0, 0.4, 1.0);
     //
 
