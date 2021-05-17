@@ -1,0 +1,5 @@
+﻿  CraneSimulator.cpp
+C:\Users\danca\source\repos\CraneSimulator\CraneSimulator\CraneSimulator.cpp(46,29): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\danca\source\repos\CraneSimulator\CraneSimulator\CraneSimulator.cpp(46,21): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\danca\source\repos\CraneSimulator\CraneSimulator\CraneSimulator.cpp(46,14): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+  CraneSimulator.vcxproj -> C:\Users\danca\source\repos\CraneSimulator\Debug\CraneSimulator.exe
