@@ -1,0 +1,5 @@
+﻿  CraneSim.cpp
+C:\github.com\crane_simulator\CraneSim\CraneSim.cpp(46,29): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\github.com\crane_simulator\CraneSim\CraneSim.cpp(46,21): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\github.com\crane_simulator\CraneSim\CraneSim.cpp(46,14): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+  CraneSim.vcxproj -> C:\github.com\crane_simulator\CraneSim\Debug\CraneSim.exe

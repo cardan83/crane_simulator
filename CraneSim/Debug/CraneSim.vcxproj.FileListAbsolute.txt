@@ -1,0 +1,3 @@
+C:\github.com\crane_simulator\CraneSim\Debug\CraneSim.exe
+C:\github.com\crane_simulator\CraneSim\Debug\CraneSim.vcxproj.CopyComplete
+C:\github.com\crane_simulator\CraneSim\Debug\freeglutd.dll
