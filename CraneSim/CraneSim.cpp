@@ -64,8 +64,9 @@ void display() {
     // of the box, but we want the "origin" of our box to be at the left end of
     // the box, so it needs to first be shifted 1 unit in the x direction, then
     // rotated.
+    glRotatef((GLfloat)90, 0.0, 0.0, 1.0);
     glRotatef((GLfloat)rotation, 1.0, 0.0, 0.0);
-    glTranslatef(1.0, 0.0, 0.0);
+    glTranslatef(0.0, 0.0, 0.0);
     wireBox(2.0, 0.4, 1.0);
 
     // Now we are ready to draw the lower arm.  Since the lower arm is attached
@@ -96,7 +97,7 @@ void display() {
 // whole visible region, then sets the projection matrix to something reason-
 // able that maintains proper aspect ratio.
 void reshape(GLint w, GLint h) {
-    glViewport(0, 0, w, h);
+    glViewport(0, -200, w, h);
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
     gluPerspective(65.0, GLfloat(w) / GLfloat(h), 1.0, 20.0);
